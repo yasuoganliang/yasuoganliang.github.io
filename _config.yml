@@ -107,7 +107,7 @@ analytics:
 # Site Author
 author:
   name             : # "yujinsheng"
-  avatar           : "/assets/images/pg.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/bg.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "hey"
   location         : "china-guangzhou"
   email            : "yujinsheng369@gmail.com"
