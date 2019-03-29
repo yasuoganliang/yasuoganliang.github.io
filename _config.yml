@@ -18,7 +18,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 locale                   : "zh-CN"
 title                    : "hey"
 title_separator          : "-"
-name                     : # "yujinsheng"
+name                     : "yujinsheng"
 description              : "hey"
 url                      : "https://yasuoganliang.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -106,9 +106,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "yujinsheng"
+  name             : # "yujinsheng"
   avatar           : "/assets/images/avatar.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
+  bio              : "hey"
   location         : "china-guangzhou"
   email            : "yujinsheng369@gmail.com"
   links:
