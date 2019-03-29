@@ -20,6 +20,11 @@ figure.highlight {
   }
 }
 
+.highlight {
+  max-height: 300px;
+  overflow-y: scroll;
+}
+
 .highlight table {
   margin-bottom: 0;
   font-size: 1em;
