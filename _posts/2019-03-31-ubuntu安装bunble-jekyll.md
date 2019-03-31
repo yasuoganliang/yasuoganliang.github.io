@@ -3,8 +3,7 @@ title: Ubuntu18.04 安装 bundle、jeykyll
 date: 2019-03-31 21:00:00
 excerpt: Ubuntu18.04 安装 bundle、jeykyll
 categories:
-- bundle
-- jeykyll
+- bundle jeykyll
 categories:
 tags:
 - Ubuntu18.04
