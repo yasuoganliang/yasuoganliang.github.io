@@ -32,12 +32,12 @@ sudo gem install jekyll
 sudo gem install rdiscount
 sudo gem install bundler
 ```
-# 切换到自己jekyll网页工程的根目录
+* 切换到自己jekyll网页工程的根目录
 ```
 cd $WORKSPACE
 bundle install
 ```
 
-# 启动本地网站，之后就可以通过浏览器本地访问自己的网站了
+* 启动本地网站，之后就可以通过浏览器本地访问自己的网站了
 `bundle exec jekyll serve -H 0.0.0.0`
 
