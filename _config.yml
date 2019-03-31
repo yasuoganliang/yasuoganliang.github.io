@@ -110,7 +110,7 @@ author:
   avatar           : "/assets/images/bg.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "hey"
   location         : "china-guangzhou"
-  email            : "yujinsheng369@gmail.com"
+  email            : "jinsheng.yu369@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
