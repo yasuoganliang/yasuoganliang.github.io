@@ -45,8 +45,8 @@ comments:
 staticman:
   allowedFields          : ['name', 'email', 'url', 'message']
   branch                 : "master"
-  commitMessage          : # "New comment by {fields.name}"
-  filename               : # comment-{@timestamp}
+  commitMessage          : "New comment by {fields.name}"
+  filename               : comment-{@timestamp}
   format                 : "yml"
   moderation             : true
   path                   : # "/_data/comments/{options.slug}" (default)
@@ -293,3 +293,11 @@ defaults:
       comments: # true
       share: true
       related: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
