@@ -6,6 +6,8 @@ excerpt: shell
 tags: shell
 ---
 
+{% include toc title = "catalog" %}
+
 ### shell 变量
 * 变量名由数字、字母下划线组成
 * 变量名的第一个字母必须是字母或者下划线
