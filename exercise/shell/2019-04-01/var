@@ -1,0 +1,30 @@
+#!/bin/bash
+_name="hey" # ok
+# 1foo="1foo" # error
+bar="bar"	# ok
+
+a="haha"
+
+PI=3.1415
+CONST="常量"
+var="变量"
+
+a="haha"
+a1=${a}1 # 相当于字符拼接
+b="this is a text"
+c="$b $a"
+d=$(ls -l ./) e=$((1 + 2 * 3))
+
+echo $a1 $c
+
+# cat << _EOF_
+# 	haha $b
+# 	there is stdout
+# _EOF_
+
+
+cat <<- _EOF_
+ 这里可以随意输入，之后都会打印
+ print $a
+_EOF_
+# 最后的 _EOF_ 前后不能有其他符号，只能有 _EOF_ 几个字符
