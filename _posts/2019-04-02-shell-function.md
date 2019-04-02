@@ -38,7 +38,6 @@ name1;
 # author: yujinsheng
 # date: 2019-04-02 20:19:00
 # description: shell function
-
 # function test() {
 # 		a=$1
 # 		b=$2
@@ -48,7 +47,6 @@ name1;
 # }
 # test 1 2 3 4 5
 # echo $?
-
 function test() {
 		echo $1
 		echo $2
@@ -57,10 +55,8 @@ function test() {
 		echo $# # 传递的参数个数
 		echo $* # 所有参数的值
 }
-
 test 1 2 3 4 5 6
 echo $?
-
 function readInput() {
 		read firstArg
 		read secArg
