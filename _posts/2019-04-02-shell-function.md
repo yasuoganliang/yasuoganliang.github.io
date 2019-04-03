@@ -21,7 +21,6 @@ function name1() {
 	a="a"
 	return $a
 }
-
 name2() {
 	b="b"
 	return $b
