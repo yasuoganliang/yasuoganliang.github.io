@@ -1,8 +1,10 @@
 ---
 title: Ubuntu18.04 安装 postgres 和 redis
 date: 2019-04-05 22:33:00
-categories: Ubuntu18.04 install postgres and redis
-excrept: postgres and redis
+categories: 
+ - postgres
+ - redis
+excrept: Ubuntu18.04 install postgres and redis
 tags:
  - ubuntu
  - postgres
