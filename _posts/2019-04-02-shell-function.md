@@ -8,6 +8,7 @@ tags:
  - linux
 ---
 
+{% include toc title = "catalog" %}
 
 ### shell 函数的定义、执行、传参
 * shell 脚本是解释型语言，从上自下执行

@@ -11,7 +11,7 @@ tags:
  - redis
 ---
 
-{ % include toc title = "categories" % }
+{% include toc title = "catalog" %}
 
 ## ubuntu18.04 apt install postgres
 ```
