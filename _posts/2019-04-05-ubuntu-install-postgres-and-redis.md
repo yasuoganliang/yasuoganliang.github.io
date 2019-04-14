@@ -11,6 +11,8 @@ tags:
  - redis
 ---
 
+{ % include toc title = "categories" % }
+
 ## ubuntu18.04 apt install postgres
 ```
 sudo apt-get install curl ca-certificates
