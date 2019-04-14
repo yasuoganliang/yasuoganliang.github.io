@@ -8,7 +8,7 @@ tags:
  - docker
 ---
 
-{% include toc title = "catelog" %}
+{% include toc title = "catalog" %}
 
 ## Ubuntu18.04 安装 docker
 * 通过包管理工具安装
