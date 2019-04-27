@@ -19,6 +19,9 @@ sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubun
 sudo apt update
 sudo apt install docker-ce // 下载 docker 社区版
 ```
+* 设置不使用 `sudo` 命令运行 docker
+`sudo usermod -aG docker $USER`
+之后注销再登陆即可
 
 * 启动 docker
 `sudo systemctl start docker`
