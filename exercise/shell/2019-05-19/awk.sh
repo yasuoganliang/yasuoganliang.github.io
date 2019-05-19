@@ -7,9 +7,8 @@ awk '
 BEGIN {
 	line = 1
 	flag = 0
-	jsonStart = "{"
-	jsonStop = "}"
-	json = jsonStart
+	jsonStart = "{ "
+	jsonStop = " }"
 	# 位置
 	pos = 0
 	# 处理 json 的深度
@@ -64,10 +63,11 @@ BEGIN {
 	line = line + 1
 }
 END {
+	gsub(/^[, ]/, "", tmpStr);
 	gsub(/, $/, "", linkListStr)
 	links = "links: { " linkListStr " }, "
 	jsonStr = jsonStr links tmpStr
-	print json jsonStr
+	print json = jsonStart jsonStr jsonStop
 	print "END"
 }
 ' $*
